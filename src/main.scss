@@ -1,5 +1,5 @@
 body, html {
-  font-family: sans-serif;
+  font-family: "IBM Plex Mono", Consolas, monaco, "Ubuntu Mono", courier, monospace !important;
   font-size: var(--sn-stylekit-base-font-size);
   height: 100%;
   margin: 0;
@@ -28,7 +28,7 @@ body, html {
   background-color: var(--sn-stylekit-editor-background-color) !important;
   color: var(--sn-stylekit-editor-foreground-color) !important;
   border: 0 !important;
-  font-family: "Fira Code Mono", "IBM Plex Mono", Consolas, monaco, "Ubuntu Mono", courier, monospace !important;
+  font-family: "IBM Plex Mono", Consolas, monaco, "Ubuntu Mono", courier, monospace !important;
 
   -webkit-overflow-scrolling: touch;
 
@@ -42,7 +42,7 @@ body, html {
   .CodeMirror-code .cm-comment {
     background: var(--sn-stylekit-contrast-background-color);
     color: var(--sn-stylekit-info-color);
-    font-family: "Fira Code Mono", "IBM Plex Mono", Consolas, monaco, "Ubuntu Mono", courier, monospace !important;
+    font-family: "IBM Plex Mono", Consolas, monaco, "Ubuntu Mono", courier, monospace !important;
 
     &.CodeMirror-selectedtext {
       color: var(--sn-stylekit-info-contrast-color) !important;
